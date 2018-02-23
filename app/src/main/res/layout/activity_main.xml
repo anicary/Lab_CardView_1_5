@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context="mx.edu.ittepic.lab_cardview_15.MainActivity">
 
-
     <android.support.v7.widget.RecyclerView
         android:id="@+id/caru"
         android:layout_width="0dp"
