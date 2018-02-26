@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.AdapterView;
 
 import java.util.ArrayList;
- 
+
 
 public class MainActivity extends AppCompatActivity {
     ArrayList<musica> listaMusica;
@@ -20,12 +20,12 @@ public class MainActivity extends AppCompatActivity {
     Adaptador adapter;
 
     String[] Genero = {"Folkloica",
-            "Rock Alternativo", "Acusticos"};
+            "Rock Alternativo", "Acusticos","Regueton","Danzon"};
 
     String[] Cancion = {"Sones de hueasteca",
-            "Urbano Arengitno", "Concierto de trova"};
+            "Urbano Arengitno", "Concierto de trova","mala musica","musica para viejitos"};
     int[] ColorArreglo = {Color.rgb(233, 150, 122),
-            Color.rgb(143,154,253), Color.rgb(223,130,22)};
+            Color.rgb(143,154,253), Color.rgb(223,130,22),Color.rgb(223,252,100),Color.rgb(100,150,100)};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
